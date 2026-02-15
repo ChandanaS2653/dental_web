@@ -9,11 +9,11 @@ export default function Home() {
   const handleBookAppointment = () => {
     // WhatsApp link - update with actual clinic number
     window.location.href =
-      "https://api.whatsapp.com/send?phone=919876543210&text=Hello, I would like to book an appointment.";
+      "https://api.whatsapp.com/send?phone=919986381155&text=Hello, I would like to book an appointment.";
   };
 
   const handleCall = () => {
-    window.location.href = "tel:+919876543210";
+    window.location.href = "tel:+919986381155";
   };
 
   const scrollToSection = (id: string) => {
@@ -528,10 +528,10 @@ export default function Home() {
               <ul className="space-y-2 text-blue-100">
                 <li>
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+91 9986381155"
                     className="hover:text-white transition"
                   >
-                    +91 98765 43210
+                    +91 9986381155
                   </a>
                 </li>
                 <li>
