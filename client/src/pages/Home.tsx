@@ -434,7 +434,7 @@ export default function Home() {
             {/* Right Content - Doctor Card */}
             <div className="bg-white rounded-2xl shadow-2xl p-8 border border-blue-100 relative">
               <div className="absolute -top-3 -right-3 bg-gradient-to-r from-blue-600 to-cyan-500 text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-md">
-                BDS, MDS
+                BDS
               </div>
 
               <div className="text-center mb-6">
