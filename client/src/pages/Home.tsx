@@ -324,14 +324,14 @@ export default function Home() {
                     <p className="text-lg font-semibold text-gray-800">
                       Morning Session
                     </p>
-                    <p className="text-gray-600">10:00 AM - 1:00 PM</p>
+                    <p className="text-gray-600">10:00 AM - 2:00 PM</p>
                   </div>
 
                   <div className="border-t pt-4">
                     <p className="text-lg font-semibold text-gray-800">
                       Evening Session
                     </p>
-                    <p className="text-gray-600">5:00 PM - 8:30 PM</p>
+                    <p className="text-gray-600">5:30 PM - 9:00 PM</p>
                   </div>
                 </div>
               </div>
@@ -415,9 +415,9 @@ export default function Home() {
                       <p className="text-gray-600">
                         Monday - Saturday
                         <br />
-                        10:00 AM - 1:00 PM
+                        10:00 AM - 2:00 PM
                         <br />
-                        5:00 PM - 8:30 PM
+                        5:30 PM - 9:00 PM
                       </p>
                     </div>
                   </div>
@@ -450,7 +450,7 @@ export default function Home() {
                     <Button
                       onClick={() =>
                         (window.location.href =
-                          "mailto:sowmya@ashirwadhdental.com")
+                          "mailto:drsowmyahm@gmail.com")
                       }
                       className="w-full bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg font-semibold"
                     >
@@ -536,15 +536,15 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="mailto:sowmya@ashirwadhdental.com"
+                    href="mailto:drsowmyahm@gmail.com"
                     className="hover:text-white transition"
                   >
-                    sowmya@ashirwadhdental.com
+                    drsowmyahm@gmail.com
                   </a>
                 </li>
                 <li className="text-sm">
                   Sunkadakatte, Bengaluru
-                  <br />
+                  <br />Ashirwadh Dental Clinic
                   Karnataka 560091
                 </li>
               </ul>

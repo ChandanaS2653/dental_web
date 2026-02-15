@@ -1,1 +1,1 @@
-export const APP_TITLE = import.meta.env.VITE_APP_TITLE || "Ashirvadh Dental Clinic";
+export const APP_TITLE = import.meta.env.VITE_APP_TITLE || "Ashirwadh Dental Clinic";
