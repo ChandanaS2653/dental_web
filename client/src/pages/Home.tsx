@@ -107,7 +107,7 @@ export default function Home() {
   };
 
   const handleCall = () => {
-    window.location.href = "tel:+919876543210";
+    window.location.href = "tel:+919986381155";
   };
 
   const scrollToSection = (id: string) => {
@@ -612,7 +612,7 @@ export default function Home() {
                 className="border-2 border-white/30 text-white hover:bg-white/10 px-8 py-4 rounded-xl font-semibold text-lg flex items-center gap-2"
               >
                 <Phone className="w-5 h-5" />
-                Call: +91 98765 43210
+                Call: +91 99863 81155
               </Button>
             </div>
           </div>
@@ -877,7 +877,7 @@ export default function Home() {
                   <Button
                     onClick={() =>
                       window.open(
-                        "https://api.whatsapp.com/send?phone=919876543210&text=Hello, I would like to book a Sunday appointment.",
+                        "https://api.whatsapp.com/send?phone=919986381155&text=Hello, I would like to book a Sunday appointment.",
                         "_blank",
                         "noopener,noreferrer"
                       )
@@ -1060,7 +1060,7 @@ export default function Home() {
                   <Button
                     onClick={() =>
                       window.open(
-                        "https://api.whatsapp.com/send?phone=919876543210&text=Hello, I would like to book an appointment.",
+                        "https://api.whatsapp.com/send?phone=919986381155&text=Hello, I would like to book an appointment.",
                         "_blank",
                         "noopener,noreferrer"
                       )
@@ -1163,11 +1163,11 @@ export default function Home() {
               <ul className="space-y-4 text-blue-200">
                 <li>
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+919986381155"
                     className="hover:text-white transition text-sm flex items-center gap-3"
                   >
                     <Phone className="w-4 h-4 text-blue-400" />
-                    +91 98765 43210
+                    +91 99863 81155
                   </a>
                 </li>
                 <li>
