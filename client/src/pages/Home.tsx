@@ -28,7 +28,7 @@ import {
 import { useState, useEffect, useRef } from "react";
 import { APP_TITLE } from "@/const";
 
-const BOOKING_URL = "https://nammadr.vercel.app/book/ashirvadhdentalclinic";
+const BOOKING_URL = "https://nammadr.vercel.app/book/ashirwadhdentalclinic";
 
 // Hook for scroll-triggered animations
 function useInView(threshold = 0.15) {
