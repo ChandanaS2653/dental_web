@@ -123,15 +123,6 @@ The app is deployed on **Netlify** as a static site (frontend only).
 
 The Express server (`server/index.ts`) is included for local or self-hosted environments. On Netlify, only the static Vite output is used.
 
----
-
-## Screenshots
-
-> Add screenshots here.
-
-| Home page | Services section | Contact section |
-|---|---|---|
-| _placeholder_ | _placeholder_ | _placeholder_ |
 
 ---
 
