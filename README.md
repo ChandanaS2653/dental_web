@@ -39,25 +39,35 @@ Professional dental clinic website for Dr. Sowmya H.M (BDS) in Bengaluru, with s
 
 ```
 dental_web/
-├── client/                  # React frontend
+├── client/
+│   ├── index.html               # Vite HTML entry point
+│   ├── public/
+│   │   └── doctor.png           # Doctor profile image asset
 │   └── src/
 │       ├── components/
-│       │   └── ui/          # Radix UI-based component library (50+ components)
+│       │   ├── ErrorBoundary.tsx
+│       │   └── ui/              # Radix UI-based component library (50+ components)
 │       ├── contexts/
 │       │   └── ThemeContext.tsx
 │       ├── pages/
-│       │   ├── Home.tsx     # Main landing page
-│       │   └── NotFound.tsx # 404 page
+│       │   ├── Home.tsx         # Main landing page
+│       │   └── NotFound.tsx     # 404 page
 │       ├── lib/
-│       │   └── utils.ts     # cn() utility (clsx + tailwind-merge)
-│       ├── App.tsx          # Root component with routing
-│       ├── main.tsx         # React DOM entry point
-│       └── index.css        # Global styles
+│       │   └── utils.ts         # cn() utility (clsx + tailwind-merge)
+│       ├── App.tsx              # Root component with routing
+│       ├── const.ts             # App-level constants (APP_TITLE)
+│       ├── main.tsx             # React DOM entry point
+│       └── index.css            # Global styles
 ├── server/
-│   └── index.ts             # Express server — serves static SPA files
-├── netlify.toml             # Netlify build config and SPA redirect rules
+│   └── index.ts                 # Express server — serves static SPA files
+├── patches/
+│   └── wouter@3.7.1.patch       # Patch for wouter router
+├── components.json              # shadcn/ui component config
+├── netlify.toml                 # Netlify build config and SPA redirect rules
+├── NETLIFY_DEPLOY.md            # Netlify-specific deployment notes
 ├── vite.config.ts
 ├── tsconfig.json
+├── tsconfig.node.json
 └── package.json
 ```
 
